@@ -1,7 +1,7 @@
 CC       = gcc
 CFLAGS   = -g -Wall -Wextra -Wpedantic --std=c99
 INCLUDES = -Iheaders
-SOURCES  = sources/table.c
+SOURCES  = sources/table.c sources/multiply.c
 TARGET   = calc
 
 build:
