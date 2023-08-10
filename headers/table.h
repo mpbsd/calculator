@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void table(const int);
+void table(int);
 
 #endif // TABLE_H

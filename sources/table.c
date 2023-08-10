@@ -1,6 +1,6 @@
 #include "table.h"
 
-void table(const int n) {
+void table(int n) {
   static char T[8][10][12] = {
     {
       "2 x  1 =  2",
@@ -103,7 +103,7 @@ void table(const int n) {
   if ((n>=0) && (n<=7)) {
     printf("\n");
     for (i = 0; i <= 9; ++i) {
-      printf("\t%s\n", T[n-2][i]);
+      printf("\t%s\n", T[n][i]);
     }
   }
 }
