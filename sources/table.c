@@ -102,7 +102,7 @@ void table(int n) {
   int i;
   if ((n>=0) && (n<=7)) {
     printf("\n");
-    for (i = 0; i <= 9; ++i) {
+    for (i = 0; i <= 8; ++i) {
       printf("\t%s\n", T[n][i]);
     }
   }
