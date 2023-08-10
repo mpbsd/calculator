@@ -5,6 +5,7 @@ Esta calculadora simples foi criada para as seguintes crianças:
 
 - Alice
 - Betânia
+- Geovanna
 - Íris
 - Isabelle
 - Isadora
